@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: ./
+    image: marcelonepomuceno/desafiogo
+    tty: true
+    container_name: desafio-go
+    command: ./bin/ola-mundo
