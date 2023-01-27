@@ -4,7 +4,7 @@
 Esse desafio é muito empolgante principalmente se você nunca trabalhou com a linguagem Go!
 Você terá que publicar uma imagem no docker hub. Quando executarmos:
 
-docker run <seu-user>/codeeducation
+docker run <seu-user>/desafiogo
 
 Temos que ter o seguinte resultado: Code.education Rocks!
 
@@ -15,15 +15,20 @@ A imagem de nosso projeto Go precisa ter menos de 2MB =)
 
 # Build 
 ```
-docker build -t <seu-user>/codeeducation .
+docker build -t <seu-user>/desafiogo .
+```
+  
+# Build With Docker Compose
+```
+docker-compose up
 ```
 
 # Pull 
 ```
-docker pull lucas770/codeeducation
+docker pull marcelonepomuceno/desafiogo
 ```
 
 # Executar o container
 ```
-docker run --rm lucas770/codeeducation
+docker run --rm marcelonepomuceno/desafiogo
 ```
