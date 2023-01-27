@@ -17,6 +17,11 @@ A imagem de nosso projeto Go precisa ter menos de 2MB =)
 ```
 docker build -t <seu-user>/desafiogo .
 ```
+  
+# Build With Docker Compose
+```
+docker-compose up
+```
 
 # Pull 
 ```
